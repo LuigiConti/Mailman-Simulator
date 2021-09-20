@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/CountrySide-3-GroundTile1.obj-9f4528c19419e59b49d24758b18c2e00.mesh"
+
+[deps]
+
+files=[ "res://.import/CountrySide-3-GroundTile1.obj-9f4528c19419e59b49d24758b18c2e00.mesh" ]
+
+source_file="res://FarmStuff/CountrySide-3-GroundTile1.obj"
+dest_files=[ "res://.import/CountrySide-3-GroundTile1.obj-9f4528c19419e59b49d24758b18c2e00.mesh", "res://.import/CountrySide-3-GroundTile1.obj-9f4528c19419e59b49d24758b18c2e00.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/Phone.obj-ae09435f50abe8cbc62c9d03873d1ee0.mesh"
+
+[deps]
+
+files=[ "res://.import/Phone.obj-ae09435f50abe8cbc62c9d03873d1ee0.mesh" ]
+
+source_file="res://StoreStuff/Phone.obj"
+dest_files=[ "res://.import/Phone.obj-ae09435f50abe8cbc62c9d03873d1ee0.mesh", "res://.import/Phone.obj-ae09435f50abe8cbc62c9d03873d1ee0.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

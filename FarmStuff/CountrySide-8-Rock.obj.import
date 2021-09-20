@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/CountrySide-8-Rock.obj-d64fd51f84eda19d898bd728270df14c.mesh"
+
+[deps]
+
+files=[ "res://.import/CountrySide-8-Rock.obj-d64fd51f84eda19d898bd728270df14c.mesh" ]
+
+source_file="res://FarmStuff/CountrySide-8-Rock.obj"
+dest_files=[ "res://.import/CountrySide-8-Rock.obj-d64fd51f84eda19d898bd728270df14c.mesh", "res://.import/CountrySide-8-Rock.obj-d64fd51f84eda19d898bd728270df14c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

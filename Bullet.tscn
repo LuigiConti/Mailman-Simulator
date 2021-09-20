@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://packages/package-8.tres" type="Material" id=1]
+[ext_resource path="res://packages/package-8.obj" type="ArrayMesh" id=2]
+[ext_resource path="res://Bullet.gd" type="Script" id=3]
+
+[sub_resource type="SphereShape" id=1]
+radius = 0.137367
+
+[node name="Bullet" type="Area"]
+collision_layer = 0
+collision_mask = 5
+script = ExtResource( 3 )
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+shape = SubResource( 1 )
+
+[node name="package-8" type="MeshInstance" parent="."]
+transform = Transform( 0.10848, 0, 0, 0, 0.162463, 0, 0, 0, 0.139174, 0, -0.10221, -0.0110305 )
+mesh = ExtResource( 2 )
+material/0 = ExtResource( 1 )
+[connection signal="body_entered" from="." to="." method="_on_Area_body_entered"]

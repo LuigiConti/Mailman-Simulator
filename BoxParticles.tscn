@@ -1,0 +1,32 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://packages/package-8.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://BoxParticles.gd" type="Script" id=2]
+[ext_resource path="res://packages/package-8.tres" type="Material" id=3]
+
+[sub_resource type="Curve" id=1]
+_data = [ Vector2( 0, 0.852273 ), 0.0, 0.0, 0, 0, Vector2( 0.83908, 0.215909 ), -2.81212, -2.81212, 0, 0, Vector2( 1, 0 ), -0.0615151, 0.0, 0, 0 ]
+
+[node name="BoxParticles" type="CPUParticles"]
+material_override = ExtResource( 3 )
+amount = 9
+lifetime = 1.5
+explosiveness = 1.0
+randomness = 1.0
+lifetime_randomness = 0.44
+local_coords = false
+mesh = ExtResource( 1 )
+direction = Vector3( 0, 1, 0 )
+spread = 59.68
+initial_velocity = 4.5
+initial_velocity_random = 0.66
+damping = 3.0
+scale_amount = 0.05
+scale_amount_random = 0.02
+scale_amount_curve = SubResource( 1 )
+script = ExtResource( 2 )
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.5
+one_shot = true
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
